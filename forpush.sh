@@ -25,7 +25,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build UI
-        run: yarn build-ui
+        run: yarn build-ui-netlify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
